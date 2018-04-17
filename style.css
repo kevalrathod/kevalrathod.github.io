@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body,html{
+  margin:0;
+  font: normal 16px Arial, Helvetica, sand-serif;
+  color:#333;
+  font-family: 'Quicksand', sans-serif;
+  height: 100%
+}
+
+#particles-js{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FEAC5E;
+  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+}
+
+#particles-js canvas{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1000;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+
+.content h1{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 3px;
+  font-size: 8vh;
+  color: White;
+}
+
+.content p{
+  margin: 0;
+  padding-bottom: 5px;
+  font-size: 4vh;
+  color: white;
+}
+.content p.links{
+  margin: 0;
+  padding: 0;
+  font-size: 3vh;
+}
+
+.content  a{
+  margin: 0;
+  padding-bottom: 5px;
+  color: #FFEB3B;
+  z-index: 2000;
+  text-decoration: none;
+}
+
+footer{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 95%;
+  left: 5%;
+}
+
+footer a{
+  text-decoration: none;
+  color: #FFEB3B;
+}
